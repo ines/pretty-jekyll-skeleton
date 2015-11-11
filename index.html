@@ -1,0 +1,27 @@
+---
+layout: default
+
+# This is the home page. It uses the layout default.html and the following is pasted in the {{content}} section.
+---
+
+<section class="posts">
+
+{% for post in site.posts %}
+<article>
+    
+    {% if post.image %}
+    <div class="image">
+      <a href="{{site.url}}{{post.url}}"><img src="{{site.url}}/assets/img/{{post.image}}" alt="{{post.title}}" /></a>
+    </div>
+    {% endif %}
+
+    <h2><a href="{{site.url}}{{post.url}}">{{post.title}}</a></h2>
+
+    <div class="excerpt">
+      {{post.excerpt | strip_html | strip_newlines}}
+    </div>
+
+</article>
+{% endfor %}
+
+</section>

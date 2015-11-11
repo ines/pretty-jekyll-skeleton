@@ -1,0 +1,36 @@
+---
+layout: default
+
+# This is the template for a post. It uses the layout default.html.
+---
+
+<article class="single">
+
+  <header>
+    <h2>{{page.title}}</h2>
+
+      {% if page.subhead %}
+        <h3 class="subhead">{{page.subhead}}</h3>
+      {% endif %}
+
+      <div class="meta">by {{site.author}} on {{ page.date | date: "%B %d, %Y" }}</div>
+
+      {% if page.image %}
+      <div class="image">
+        <img src="{{site.url}}/assets/img/{{page.image}}" alt="{{page.title}}" />
+      </div>
+      {% endif %}
+
+  </header>
+
+  <div class="content">
+    {{content}}
+
+    {% if page.readmore %}
+      <a href="{{page.readmore}}" class="button read-more-button">Read more</a>
+    {% endif %}
+
+    {% include share-buttons.html %}
+  </div>
+
+</article>

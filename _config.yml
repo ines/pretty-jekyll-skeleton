@@ -1,0 +1,14 @@
+# The blog configuration 
+
+name: My Blog
+description: This is my blog where I post stuff
+author: Me
+permalink: /blog/:title
+timezone: Europe/Berlin
+
+email: me@domain.com
+twitter: mytwitteraccount
+
+# This is the default that's used to preview.
+# Change this to your website's URL when you publish your site.
+url: http://localhost:4000
