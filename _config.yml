@@ -3,7 +3,7 @@
 name: My Blog
 description: This is my blog where I post stuff
 author: Me
-permalink: /blog/:title
+permalink: /blog/:title/
 timezone: Europe/Berlin
 
 email: me@domain.com
