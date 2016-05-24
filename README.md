@@ -3,4 +3,4 @@ An incredibly simple skeleton template for [Jekyll](http://jekyllrb.com/) to get
 
 *This template was originally developed for [The ultimate guide to static websites with Jekyll](http://ines.io/blog/the-ultimate-guide-static-websites-jekyll/).*
  
-![Preview of Pretty Jekyll Skeleton Template](http://ines.io/content/jekyll_skeleton.jpg)
+![Preview of Pretty Jekyll Skeleton Template](http://ines.io/blog/img/jekyll_skeleton.jpg)
